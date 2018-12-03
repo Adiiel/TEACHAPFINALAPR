@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DE9B6"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".pruebaActivity">
+
+    <ImageView
+        android:layout_width="229dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="25dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edtDoc"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="Documento"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/edtnombre"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_action_apellido"
+        android:hint="nombre"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/edtprof"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:hint="profesion"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/Usernew"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:hint="user"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Clavenew"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_redondo"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="REGISTRAR"
+        />
+
+    <!--TextView
+        android:id="@+id/txtnew"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:paddingLeft="100dp"
+        android:text="Regresar"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:text="             Al registrarse acepta todas nuestras
+        Condiciones y nuestra Politica de privacidad"
+        android:textColor="@android:color/black" />-->
+</LinearLayout>

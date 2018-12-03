@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SesionFragment"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="183dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/logo"
+        android:layout_marginStart="40dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="usuario"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        tools:background="@android:color/transparent"
+        android:inputType=""
+        android:drawableStart="@drawable/ic_action_user"
+        android:autofillHints="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clave"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Clave"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_pass"
+        tools:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_action_pass"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btningr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ingresar"
+        android:onClick="onClick"
+        android:background="@drawable/btn_redondo"
+        />
+
+    <TextView
+        android:id="@+id/txtRH"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="100dp"
+        android:onClick="onClick"
+        android:text="nuevo_registro"
+        android:textSize="10sp"
+        android:layout_marginStart="25dp"
+        android:paddingStart="100dp" />
+
+</LinearLayout>
